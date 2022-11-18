@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d2a8df92dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Poppins:wght@200&family=Trispace&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="links">
+        <a class="nav--link">Home</a>
+        <a class="nav--link" href="#section--1">About Me</a>
+        <a class="nav--link" href="#section--2">Projects</a>
+        <a class="nav--link" href="#section--3">Contact</a>
+      </nav>
+    </header>
+    <div class="title-container">
+      <div class="div">
+        <div class="title">
+          <h1>Anthony Nelson</h1>
+        </div>
+        <div class="title-anthony">
+          <h2>
+            A <span id="fewd">Front-end Web Developer</span> from Birmingham
+          </h2>
+        </div>
+      </div>
+      <div class="title-img-container">
+        <div class="title-image">
+          <img />
+        </div>
+      </div>
+    </div>
+    <section class="about" id="section--1">
+      <div class="abme">
+        <h3>About me</h3>
+      </div>
+      <div class="abt">
+        <p>
+          Web development has been my passion ever since i discovered it for the
+          first time in 2015. I started learning and getting in depth in web
+          technologies and frameworks. Hard work, punctuality and quality of my
+          work are the major characteristcs i put in every projects
+        </p>
+        <button id="CV">Download CV</button>
+        <div class="socials">
+          <i class="socials-i fa-brands fa-github"></i>
+          <i class="socials-i fa-brands fa-linkedin"></i>
+          <i class="socials-i fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="myskills">
+        <div class="abme">
+          <h3>My skills</h3>
+        </div>
+        <div class="skills-section">
+          <div class="dev-set glass">
+            <i class="fa-brands fa-html5"></i>
+            <div class="dev-set-text">
+              <h4>HTML</h4>
+              <p>html text</p>
+            </div>
+          </div>
+          <div class="dev-set glass">
+            <i class="fa-brands fa-css3-alt"></i>
+            <div class="dev-set-text">
+              <h4>CSS</h4>
+              <p>css text</p>
+            </div>
+          </div>
+          <div class="dev-set glass">
+            <i class="fa-brands fa-square-js"></i>
+            <div class="dev-set-text">
+              <h4>Javascript</h4>
+              <p>java text</p>
+            </div>
+          </div>
+          <div class="dev-set glass">
+            <i class="fa-brands fa-wordpress"></i>
+            <div class="dev-set-text">
+              <h4>Wordpress</h4>
+              <p>wordpress text</p>
+            </div>
+          </div>
+          <div class="dev-set glass">
+            <i class="fa-brands fa-react"></i>
+            <div class="dev-set-text">
+              <h4>React</h4>
+              <p id="soon">Coming soon</p>
+            </div>
+          </div>
+          <div class="dev-set glass">
+            <i class="fa-brands fa-github"></i>
+            <div class="dev-set-text">
+              <h4>Github</h4>
+              <p id="soon">Coming soon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="section--2">
+      <div class="my-projects">
+        <h3>My Projects</h3>
+      </div>
+      <div class="prj-container">
+        <div class="prj-1 proj1">
+          <h3>Apple clone</h3>
+          <div class="mogul1">
+            <button class="btns liveBtn">Live</button>
+            <button class="btns codeBtn">Code</button>
+          </div>
+        </div>
+        <div class="prj-1">
+          <h3>project2</h3>
+          <div class="mogul1">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="prj-1">
+          <h3>project3</h3>
+          <div class="mogul1">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="prj-1">
+          <h3>project4</h3>
+          <div class="mogul1">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="prj-1">
+          <img src="/" />
+          <h3>project5</h3>
+          <div class="mogul1">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="prj-1">
+          <img src="/" />
+          <h3>project6</h3>
+          <div class="mogul1">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-me" id="section--3">
+      <div class="contact-container">
+        <form>
+          <h1>Contact me</h1>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <small class="error"></small>
+
+          <label for="email">Email:</label>
+          <input type="email" id="Email" placeholder="your email">
+          <small class="error"></small>
+
+          <label for="message">message:</label>
+          <textarea id="message" placeholder="your message" rows="6">
+          <small class="error"></small>
+          
+          <div>
+            <input type="submit" value="send message">
+            <p id="success"></p>
+          </div>
+
+
+
+        </form>
+      </div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
